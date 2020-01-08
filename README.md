@@ -12,12 +12,12 @@ We have some customer records in a text file (customers.txt) -- one customer per
 
 We're looking for you to produce working code, with enough room to demonstrate how to structure components in a small program. Good submissions are well composed. Calculating distances and reading from a file are separate concerns. Classes or functions have clearly defined responsibilities.  Poor submissions will be in the form of one big function. It’s impossible to test anything smaller than the entire operation of the program, including reading from the input file.
 
-#### Requirements
+### Requirements
 
 Node >= v10 
 Jest >= v24
 
-##### Config
+### Config
   
 * TARGET_LOCATION_LATITUDE - target latitude, Dublin Office by default
 * TARGET_LOCATION_LONGITUDE - target longitude, Dublin Office by default
@@ -34,20 +34,20 @@ Jest >= v24
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Run the app, output results to console
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner - Jest.
 
-### `npm test -- --coverage`
+#### `npm test -- --coverage`
 
 Launches the test runner with information about code coverage
 
 
-#### Output
+### Output
 
 In `output.txt` you can find the result of the app running with given customers list.
 
@@ -56,10 +56,10 @@ In `output.txt` you can find the result of the app running with given customers 
 
 You can run this app in docker container.
 
-### `docker build -t <image_name> .`
+#### `docker build -t <image_name> .`
 
 Run this command to create image.
 
-### `docker run <image_name>`
+#### `docker run <image_name>`
 
 Run the app inside docker container
