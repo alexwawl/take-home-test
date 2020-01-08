@@ -2,7 +2,7 @@ let config = require('../../config.json');
 
 const EARTH_RADIUS  = 6371;
 const TARGET_LATITUDE = config.TARGET_LOCATION_LATITUDE;
-const TARGET_LONGITUDE = config.TARGET_LOCATION_LONGITUTE;
+const TARGET_LONGITUDE = config.TARGET_LOCATION_LONGITUDE;
 
 
 /**
