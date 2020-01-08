@@ -20,7 +20,7 @@ Jest >= v24
 ##### Config
   
 * TARGET_LOCATION_LATITUDE - target latitude, Dublin Office by default
-* TARGET_LOCATION_LONGITUTE - target longitude, Dublin Office by default
+* TARGET_LOCATION_LONGITUDE - target longitude, Dublin Office by default
 * PATH_TO_CUSTOMERS_FILE" - path to file with customers records
   
 ## Installation
@@ -42,7 +42,7 @@ Run the app, output results to console
 
 Launches the test runner - Jest.
 
-### `npm test -- -coverage`
+### `npm test -- --coverage`
 
 Launches the test runner with information about code coverage
 
