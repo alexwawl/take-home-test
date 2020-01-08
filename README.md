@@ -50,3 +50,16 @@ Launches the test runner with information about code coverage
 #### Output
 
 In `output.txt` you can find the result of the app running with given customers list.
+
+
+### Docker
+
+You can run this app in docker container.
+
+### `docker build -t <image_name> .`
+
+Run this command to create image.
+
+### `docker run <image_name>`
+
+Run the app inside docker container
